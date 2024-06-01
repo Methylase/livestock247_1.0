@@ -1,0 +1,400 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+/*.about-banner {*/
+/*    margin-top:75px;*/
+/*    background-image: url(../images/about-banner.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100% auto;*/
+/*    background-position: center;*/
+/*    height: 500px;*/
+/*}*/
+
+@media (min-width: 1200px) {
+	.about-banner {
+		margin-top:75px;
+		background-image: url(../images/about-banner.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+		height: 500px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	.about-banner {
+		background-image: url(../images/about-banner.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: center;
+	}
+
+}
+.about-banner h1 {
+    padding-top: 300px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.box-wrapper {
+    margin-bottom: 50px;
+}
+
+.box-set {
+    position: relative;
+}
+
+.box-1 h1 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.box img {
+    height: 40px;
+    object-fit: cover;
+}
+
+.box li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 65px;
+    margin-bottom: 35px;
+}
+
+.caption {
+    display: block;
+    font-size: 11px;
+}
+
+.box-element {
+    position: absolute;
+}
+
+.box-set-element {
+    background-image: url(../images/side-banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    height: 655px;
+    border-radius: 5px;
+    top:65px;
+}
+
+.box-set-element-1 {
+    
+    padding: 40px;
+    margin: auto;
+    width: 47%;
+    color: #fff;
+}
+.box-set-element-2{
+  
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2078BF;
+    height: 100%;
+}
+
+/*DARKEN*/
+.brighten img {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.brighten img:hover {
+    -webkit-filter: brightness(100%);
+}
+
+.btn-news a {
+
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.btn-news:hover a{
+
+    color: #2078BF !important;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.selectpicker {
+    width: 425px;
+    height: 44px;
+    margin-bottom: 39px;
+}
+
+.box-set-element-1 h1 {
+    color: #fff;
+    
+}
+
+.box-set-element-1 p {
+    line-height: 30px;
+  
+}
+
+.team-wrapper {
+    margin-top: 80px;
+}
+
+.team-wrapper h1 {
+    color: #2078BF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 75px;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.blog h1 {
+    color: #2078BF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.blog-content {
+    float: left;
+    display: block;
+}
+
+.blog-content p {
+    font-size: 20px;
+}
+
+.select-input {
+    float: right;
+    margin-top: 20px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.blog-banner {
+    background-image: url(../images/blog-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: cover;
+    height: 416px;
+}
+
+.blog-banner-content h1 {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 160px;
+    margin-right: 1000px;
+}
+
+.blog-banner-content {
+    position: relative;
+}
+
+.challenge {
+    display: grid;
+    grid-template-rows: 200px;
+    margin: 30px auto;
+    background-color: blue;
+    padding: 30px;
+}
+
+.first-col-div,
+.second-col-div {
+    margin-top: 30px;
+}
+
+.second-col-div {
+    float: right;
+}
+
+.first-col-div h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 447px;
+}
+
+.second-col-div h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.blog-post {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 172px;
+    left: -39px;
+}
+
+.arrow-rightt {
+    position: absolute;
+    top: 308px;
+    right: -89px;
+    background: #06864D;
+    padding: 18px;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 364px;
+    right: -89px;
+    background: #2078BF;
+    padding: 10px;
+}
+.blog-head h1{
+    color: #2078BF;
+    font-weight: bold;
+    margin-right: 447px;
+}
+.title-h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.card-title {
+    text-transform: uppercase;
+    color: #fff;
+}
+.card-text {
+    color: #fff;
+}
+
+.modal_tooltip_hover {
+    padding-top: 10px;
+}
+
+.modal_selectpicker {
+    height: 35px;
+}
+
+.box-1 {
+
+  
+    background: #2078BF;
+    border-radius: 3px;
+    padding: 40px;
+    color: #fff;
+    }
+
+    .box-2 {
+
+    background-image: url(../images/side-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 633px;
+    border-radius: 7px;
+   
+}
+
+
+@media (min-width: 1200px) {
+    .box-1 {
+ 
+    top: 10px;
+    background: #2078BF;
+    border-radius: 3px;
+    padding: 40px;
+    margin: auto;
+    width: 50%;
+    z-index: 3;
+    color: #fff;
+}
+
+.box-2 {
+    
+    height: 633px;
+    border-radius: 3px;
+    bottom: -590px;
+    left: 470px;
+    width: 60%;
+}
+
+.box {
+    position: absolute;
+}
+
+.box-set-element-2{
+   margin-top:675px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2078BF;
+    height: 100%;
+}
+
+.box-set-element {
+    top:0;
+      height: 445px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+}

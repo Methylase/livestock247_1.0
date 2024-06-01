@@ -1,0 +1,24 @@
+#circle-green {
+	background: #00a65a;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+#circle-green form {
+	padding-top: 45px;
+	/*padding-left: 3px;*/
+}
+
+#circle-red {
+	background: #dd4b39;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+#circle-red form {
+	padding-top: 45px;
+	/*padding-left: 3px;*/
+}
+
